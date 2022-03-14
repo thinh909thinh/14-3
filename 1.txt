@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+int namsinh ,tuoi;
+char ten[10];
+printf ("nam sinh ");
+scanf("%d",&namsinh);
+printf("nhap ten");
+scanf("%s",&ten);
+tuoi=2022-namsinh;
+printf("xin chao %s nam nay %d tuoi",ten,tuoi);
+	
+}
